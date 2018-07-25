@@ -3146,7 +3146,7 @@ module.exports = {
         }
 
 
-        if (typeof offerOptions.offerToReceiveAudio !== 'undefined') {
+        if (typeof offerOptions.offerToReceiveVideo !== 'undefined') {
           // support bit values
           offerOptions.offerToReceiveVideo = !!offerOptions.offerToReceiveVideo;
         }
